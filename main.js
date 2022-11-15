@@ -71,7 +71,13 @@ const app = {
             singer: '1 9 6 7',
             path: './asset/music/truoc_khi_tuoi_tre_nay_dong_loi.mp3',
             img: './asset/img/truoc_khi_tuoi_tre_nay_dong_loi.jpg'
-        }
+        },
+        {
+            name: 'REEVES',
+            singer: 'MANBO',
+            path: './asset/music/manbo.mp3',
+            img: './asset/img/manbo.jpg'
+        },
     ],
     setConfig: function(key, value) {
         this.config[key] = value;

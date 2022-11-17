@@ -78,6 +78,12 @@ const app = {
             path: './asset/music/manbo.mp3',
             img: './asset/img/manbo.jpg'
         },
+        {
+            name: 'Bài Ca Tuổi Trẻ',
+            singer: 'TamKa PKL',
+            path: './asset/music/bai_ca_tuoi_tre.mp3',
+            img: './asset/img/bai_ca_tuoi_tre.jpg'
+        },
     ],
     setConfig: function(key, value) {
         this.config[key] = value;
